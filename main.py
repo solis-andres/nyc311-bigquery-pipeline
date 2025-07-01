@@ -1,7 +1,7 @@
 from nyc_311_fetcher import fetch_nyc_311
 from bigquery_loader import upload_to_bigquery
 
-PROJECT = "YOUR_GCP_PROJECT_ID"
+PROJECT = "nyc-311-pipeline"
 DATASET = "nyc311"
 TABLE = "complaints"
 
