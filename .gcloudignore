@@ -1,0 +1,18 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore local virtual environments
+.env/
+venv/
+
+# Ignore system files
+.DS_Store
+
+# Ignore anything git-related
+.git/
+.gitignore
+
+# Optional: Ignore test files
+tests/
